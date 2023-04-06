@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  app:
+    # image: image-uri
+    # OR
+    build: .
+    restart: always
+    ports:
+      - 80:3000
